@@ -23,6 +23,13 @@ import java.util.ArrayList;
 
 public class IndevlabsAlgorithm {
     /**
+     * @Author Харьков Александр
+     * e-mail:
+     * karl.shtolz.army@gmail.com
+     * hh:
+     * https://hh.ru/resume/e94f8473ff0b75b3c30039ed1f72635a456853
+     */
+    /**
      * function to find missing number in array if one number is missing
      * @param arr
      * @return
