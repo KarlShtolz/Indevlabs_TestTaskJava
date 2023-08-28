@@ -20,6 +20,7 @@ import java.util.ArrayList;
  * 1- Think of every possible scenario to test your function including corner cases.
  * 2- Solutions in email will not be accepted
  */
+
 public class IndevlabsAlgorithm {
     /**
      * function to find missing number in array if one number is missing
