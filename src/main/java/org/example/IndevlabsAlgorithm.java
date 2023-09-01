@@ -45,8 +45,8 @@ public class IndevlabsAlgorithm {
         }
         int arrXor = 0;
         int arithmeticProgressionXor = 0;
-        int maxInArr = -2147483648;
-        int minInArr = 2147483647;
+        int maxInArr = -2147483648; //don't use negative numbers
+        int minInArr = 2147483647; //use Integer.MAX_VALUE
         int lengthArr = arr.length;
         for (int i = 0; i < lengthArr; i++) {
             if (arr[i] < 0) {
@@ -61,7 +61,7 @@ public class IndevlabsAlgorithm {
                 maxInArr = arr[i];
             }
         }
-        for (int i = minInArr; i <= maxInArr; i++) {
+        for (int i = minInArr; i <= maxInArr; i++) { //you can use math formula to calculate an arithmetic progression
             arithmeticProgressionXor = arithmeticProgressionXor ^ i;
         }
         if ((arithmeticProgressionXor ^ arrXor) == 0) {
@@ -75,7 +75,7 @@ public class IndevlabsAlgorithm {
      * @param arr
      * @return
      */
-    public static ArrayList<Integer> findAllMissingNumber(int [] arr) {
+    public static ArrayList<Integer> findAllMissingNumber(int [] arr) { //you don't need to return an ArrayList<Integer> because specifies only 1 missing number
         if (arr == null || arr.length == 0) {
             System.out.println("Array is null or array length is zero.");
             return null;
