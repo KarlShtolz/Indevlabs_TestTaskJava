@@ -61,7 +61,7 @@ public class IndevlabsAlgorithm {
                 maxInArr = arr[i];
             }
         }
-        for (int i = minInArr; i <= maxInArr; i++) { //you can use math formula to calculate an arithmetic progression. The second for() is increase the time complexity O(n^2)
+        for (int i = minInArr; i <= maxInArr; i++) { //you can use math formula to calculate an arithmetic progression
             arithmeticProgressionXor = arithmeticProgressionXor ^ i;
         }
         if ((arithmeticProgressionXor ^ arrXor) == 0) {
